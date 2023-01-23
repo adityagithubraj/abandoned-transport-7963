@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        #cont{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 400px);
+        gap: 20px;
+        
+    }
+    #cont>div{
+        border: px solid red;
+        text-align: center;
+        padding-bottom: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    #cont>div>img{
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    
+    
+    
+    
+    <a href="addcart.html" target="_blank"><button>Go back to man page</button></a>
+    <h2>total item: <span></span></h2>
+    <h1>total price: <span></span></h1>
+    <div id="cont"></div>
+</body>
+</html>
+<script src="cart.js"></script>
+
+
+
